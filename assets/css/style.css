@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    font-family: "Roboto",sans-serif;
+
+}
+/*Ejemplo 4 Menu Lateral*/
+nav{
+    margin:0;
+    background-color:white;
+    width:40em;/*Ancho del menu*/
+    height:100vh;
+}
+nav ul{
+    display:flex;
+    margin:0;
+    padding:0;
+    flex-direction:column;/*Para que se pongan uno debajo del otro*/
+}
+li{
+    list-style:none;
+    padding:1em;
+}
+nav a{
+    color:rgb(5, 5, 5);
+    text-decoration:none;
+}
+nav a:hover{
+    color:blue;
+}
+.cajas{
+    display:flex;
+}
